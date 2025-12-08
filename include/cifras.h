@@ -17,10 +17,19 @@ using namespace std;
 class Cifras {
 
     private:
-    vector<int> ConjuntoNumeros = {1,2,3,4,5,6,7,8,9, 10, 25, 50, 75, 100};
-    vector<int> Extraidos = {0};
 
-    vector<int> ExtraerRandom(vector<int> original);
+        /// @brief Vector del que se extraen los numeros de forma aleatoria
+        vector<int> ConjuntoNumeros = {1,2,3,4,5,6,7,8,9, 10, 25, 50, 75, 100};
+
+        /// @brief Tamaño del vector Extraidos
+        const int NUM_EXTRAIDOS = 6;
+        
+        /// @brief Vector con los numeros extraidos de ConjuntoNumeros de forma aleatoria
+        vector<int> Extraidos;
+
+        /// @brief Inicializa el vector de Extraidos de forma aleatoria
+        void InicializarExtraidos();
+    public:
 
 
 
