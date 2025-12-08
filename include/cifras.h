@@ -27,8 +27,16 @@ class Cifras {
         /// @brief Vector con los numeros extraidos de ConjuntoNumeros de forma aleatoria
         vector<int> Extraidos;
 
+        /// @brief Numero como máximo de tres cifras, que se pretende lograr con S y operaciones aritmeticas {+,-,*,/}
+        int objetivo;
+
         /// @brief Inicializa el vector de Extraidos de forma aleatoria
         void InicializarExtraidos();
+
+        /// @brief Inicializa el objetivo de forma aleatoria
+        void InicializarObjetivo();
+
+
     public:
 
 
