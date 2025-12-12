@@ -165,4 +165,8 @@ CMakeFiles/letras.dir/src/solver.cpp.o: \
  /usr/include/c++/11/bits/erase_if.h \
  /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include/dictionary.h \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
- /usr/include/c++/11/bits/stl_multiset.h
+ /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/fstream \
+ /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc
