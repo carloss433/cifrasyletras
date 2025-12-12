@@ -1,0 +1,9 @@
+/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/testdiccionario.dir
+/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/letras.dir
+/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/cantidad_letras.dir
+/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/cifras.dir
+/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/doc_doxygen.dir
+/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/mrproper.dir
+/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/zip.dir
+/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/edit_cache.dir
+/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/rebuild_cache.dir

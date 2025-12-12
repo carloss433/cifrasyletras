@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "juego_letras",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cantidad_letras::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cantidad_letras-Debug-12390eff88a33f926854.json",
+					"name" : "cantidad_letras",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cifras::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cifras-Debug-cff1e633567a4a961584.json",
+					"name" : "cifras",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doc_doxygen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doc_doxygen-Debug-2f2486f3dd0d5fc5c637.json",
+					"name" : "doc_doxygen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letras::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letras-Debug-5332bd254bbce813d0ca.json",
+					"name" : "letras",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mrproper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mrproper-Debug-e15b76e4df3446372046.json",
+					"name" : "mrproper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testdiccionario::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testdiccionario-Debug-6b54dd12dd044750abc8.json",
+					"name" : "testdiccionario",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zip-Debug-91f12e49102c89b98201.json",
+					"name" : "zip",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build",
+		"source" : "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

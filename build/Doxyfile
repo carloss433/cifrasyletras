@@ -1,0 +1,6 @@
+PROJECT_NAME           = "Práctica Final.-Cifras y Letras "
+OUTPUT_DIRECTORY       = /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build/doc_doxygen/
+INPUT                  = /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/.//include /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/.//src /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/.//doc
+GENERATE_LATEX         = NO
+IMAGE_PATH             = /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/.//doc
+EXTRACT_PRIVATE	       = NO

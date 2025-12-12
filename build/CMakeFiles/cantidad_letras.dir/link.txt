@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/cantidad_letras.dir/src/cantidad_letras.cpp.o CMakeFiles/cantidad_letras.dir/src/letters_set.cpp.o CMakeFiles/cantidad_letras.dir/src/dictionary.cpp.o -o bin/cantidad_letras 

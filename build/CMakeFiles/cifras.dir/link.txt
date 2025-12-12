@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/cifras.dir/src/cifras.cpp.o -o bin/cifras 
