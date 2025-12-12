@@ -78,19 +78,72 @@ class Cifras {
         vector<int> GetExtraidos(){
             return Extraidos;
         }
+        
+        pair<int, string> CalcularOperaciones(vector<int> S, int meta, pair<int, string> actual, pair<int, string> best){
+            if(actual.first==meta){
+                return actual;
+            }
+
+            if(meta - actual.first < meta - best.first){
+                best = actual;
+            }
+
+            vector<int> restantes = S;
+            vector<pair<int, string>> operaciones;
+            for (int n: S){
+                restantes.pop_back();
+                operaciones = GeneraOperaciones(actual, n);
+
+                for(auto it : operaciones){
+                    CalcularOperaciones(restantes, meta, it, best);
+                }
+
+
+            }
+            
+
+
+        };
+
+        vector<pair<int, string>> GeneraOperaciones(pair<int, string> actual, int n){
+            vector<pair<int, string>> provisional;
+
+            provisional.push_back({actual.first+n, actual.second +to_string(actual.first+n)});
+
+            if(actual.first-n >= 0){
+                provisional.push_back({actual.first-n,actual.second +to_string(actual.first-n)});
+            }
+
+            provisional.push_back({actual.first*n,actual.second +to_string(actual.first*n)});                              
+
+            if(n != 0 && actual.first % n == 0) {
+                provisional.push_back({actual.first / n, actual.second + "/" + to_string(n)});
+            }
+
+
+            return provisional;
+
+        };
 
         /// @brief Inicializa el Juego
         void Play(){
+            pair<int, string> actual, best;
 
             cout << "Comenzamos con la parte de las Cifras." << endl;
 
             cout << "Conjunto de nunmeros: " << ConjuntoNumeros << endl;
 
-            cout << "conjunto de " << Extraidos.size() << " numeros extraidos: " << Extraidos << endl;
+            cout << "Conjunto de " << Extraidos.size() << " numeros extraidos: " << Extraidos << endl;
 
-            cout << "Objetivo: " << Objetivo << endl << endl;
+            cout << "Objetivo: " << Objetivo << endl;
+
+            pair<int, string> resultado = CalcularOperaciones(ConjuntoNumeros, Objetivo, actual, best);
+
+            cout << resultado.first << endl << resultado.second;
 
         }
+
+        
 
 
     
@@ -102,12 +155,6 @@ int main(int argc, char* argv[]) {
     Cifras juegocifras;
     
     juegocifras.Play();
-
-
-    
-
-
-
 
     return 0;
 }
