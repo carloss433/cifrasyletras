@@ -221,8 +221,21 @@ CMakeFiles/cifras.dir/src/cifras.cpp.o: ../src/cifras.cpp \
   /usr/include/c++/11/bits/random.tcc \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/bit
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/bits/uses_allocator.h
 
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/c++/11/bits/stl_deque.h:
 
 /usr/include/c++/11/limits:
 
@@ -360,6 +373,8 @@ CMakeFiles/cifras.dir/src/cifras.cpp.o: ../src/cifras.cpp \
 
 /usr/include/c++/11/clocale:
 
+/usr/include/c++/11/bits/stl_queue.h:
+
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
 /usr/include/ctype.h:
@@ -432,6 +447,8 @@ CMakeFiles/cifras.dir/src/cifras.cpp.o: ../src/cifras.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
+/usr/include/c++/11/deque:
+
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/include/c++/11/ios:
@@ -443,6 +460,8 @@ CMakeFiles/cifras.dir/src/cifras.cpp.o: ../src/cifras.cpp \
 /usr/include/c++/11/bits/allocator.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/11/queue:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -645,6 +664,8 @@ CMakeFiles/cifras.dir/src/cifras.cpp.o: ../src/cifras.cpp \
 /usr/include/c++/11/cmath:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
