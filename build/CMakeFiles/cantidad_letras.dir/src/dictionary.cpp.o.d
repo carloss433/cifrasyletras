@@ -161,4 +161,5 @@ CMakeFiles/cantidad_letras.dir/src/dictionary.cpp.o: \
  /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc
+ /usr/include/c++/11/bits/vector.tcc \
+ /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include/dictionary.h

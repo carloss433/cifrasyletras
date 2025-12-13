@@ -6,7 +6,7 @@
 using namespace std;
 
 int main(int argc, char *argv[])
-{/*
+{
   if(argc != 2){
     cout << "Los parametros son: " << endl;
     cout << "1.- El fichero con el diccionario" << endl;
@@ -62,5 +62,5 @@ int main(int argc, char *argv[])
         cout<<"La palabra no esta"<<endl;
 
 
-  return 0;*/
+  return 0;
 }

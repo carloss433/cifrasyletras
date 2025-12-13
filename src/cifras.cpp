@@ -155,7 +155,7 @@ class Cifras {
 
             cout << "--- JUEGO DE LAS CIFRAS ---" << endl;
             cout << "Conjunto de numeros total: " << ConjuntoNumeros << endl;
-            cout << "Tus " << Extraidos.size() << " numeros: " << Extraidos << endl;
+            cout << "Los " << Extraidos.size() << " numeros extraidos: " << Extraidos << endl;
             cout << "Objetivo a conseguir: " << Objetivo << endl;
 
             pair<int, string> inicio;

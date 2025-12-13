@@ -1,7 +1,3 @@
-//
-// Created by 
-//
-
 #ifndef DICTIONARY_H
 #define DICTIONARY_H
 
@@ -52,11 +48,7 @@ public:
     *	@return devuelve true si existe, en caso contrario, false
     */
 
-    bool esta(const string& word);
-
-    /**
-     * 	@brief Sobrecarga de operador de escritura 
-    */
+    bool exists(const string& word);
 
     /**
     * @brief Elimina una palabra del diccionario
@@ -84,14 +76,14 @@ public:
      *  @return: un entero que indica el numero de apariciones de la letra c
     */
 
-    int getOcurrencias(const char c) const;
+    int getOccurrences(const char c) const;
     
     /**
     * @brief Indica el numero totales de letras
     * @return Un entero indicando el numero totales de letras
     */
 
-    int getTotalLetras() const;
+    int getTotalLetters() const;
 
     /**
      * 	@brief Definicion de iterador de Diccionario
@@ -100,6 +92,9 @@ public:
     class iterator{
         private:
             set<string>::iterator it;
+
+            // Constructor privado que convierte un iterador de set a tu iterador
+            iterator(set<string>::iterator i) : it(i) {}
     
         public:
             iterator (){}
@@ -129,6 +124,69 @@ public:
             friend class Dictionary;
     };
 
+    class const_iterator{
+        private:
+            set<string>::const_iterator cit;
+
+            // Constructor privado que convierte un iterador de set a tu iterador
+            const_iterator(set<string>::const_iterator i) : cit(i) {}
+
+        public:
+            const_iterator (){};
+            
+            string operator *(){
+                return *cit;
+            }
+
+            const_iterator & operator++(){
+                ++cit;
+                return *this;
+            }
+
+            const_iterator & operator --(){
+                --cit;
+                return *this;
+            }
+
+            bool operator ==(const const_iterator &i){
+                return i.cit == cit;
+            }
+
+            bool operator != (const const_iterator &i){
+                return i.cit != cit;
+            }
+
+            friend class Dictionary;
+    };
+
+    /**
+     * 	@brief Busca una palabra para ver si existe en el diccionario
+     *  @param word: palabra a buscar en el diccionario
+     *  @return un iterador que apunta a la palabra si existe, en caso contrario, apunta a end
+    */
+    iterator find(const string &word);
+
+    /**
+    * @brief Obtiene todas las palabras de una longitud
+    * param longitud: valor de longitud de la palabras a devolver
+    * @return un vector con palabra de la longitud dada
+    **/
+    vector<string> getWordsLength(int longitud);
+
+    /**
+     * 	@brief Insercion de una palabra en el diccionario
+     *  @param val: palabra a insertar.
+     *  @return pair<iterator, bool> con el iterador a la palabra y true si se ha podido insertar, y en caso contrario false
+    */
+    pair<iterator, bool> insert(const string &val);
+
+
+    /**
+     * 	@brief Encuentra el rango de palabras que empiezan con un prefijo dado     
+     *  @return pair<iterator, iterator> que es el rango de palabras que tienen dicho prefijo.
+    */
+    pair<iterator, iterator> range_prefix(const string &val);
+
     iterator begin(){
         iterator i;
         i.it = words.begin();
@@ -136,9 +194,15 @@ public:
     }
 
     iterator end(){
-	      iterator i;
-        i.it = words.end();
-	      return i;
+	    iterator i;
+      i.it = words.end();
+	    return i;
     }
 };
 #endif //DICTIONARY_H
+
+
+
+
+
+
