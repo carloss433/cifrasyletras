@@ -27,11 +27,11 @@
 
   ostream &operator<<(ostream &os, const LettersSet &let)
   {
-      os << "Letra Cantidad Puntos"<< endl;
+      os << "Letra   Cantidad   Puntos"<< endl;
 
       for (auto it = let.charSet.begin(); it != let.charSet.end(); ++it){
         os << it->first << "\t"
-           << it->second.repetitions << "\t"
+           << it->second.repetitions << "\t   "
            << it->second.score << endl;
       }
 
