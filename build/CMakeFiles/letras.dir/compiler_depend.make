@@ -194,7 +194,8 @@ CMakeFiles/letras.dir/src/dictionary.cpp.o: ../src/dictionary.cpp \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc
+  /usr/include/c++/11/bits/vector.tcc \
+  ../include/dictionary.h
 
 CMakeFiles/letras.dir/src/letras.cpp.o: ../src/letras.cpp \
   /usr/include/stdc-predef.h \

@@ -72,7 +72,14 @@ Dictionary::iterator Dictionary::find(const string &word){
 
 vector<string> Dictionary::getWordsLength(int longitud)
 {
-    return vector<string>();
+    vector<string> wordslength;
+
+    for(string w : words){
+        if(w.length()==longitud)
+            wordslength.push_back(w);
+    }
+
+    return wordslength;
 }
 pair<Dictionary::iterator, bool> Dictionary::insert(const string &val){
     pair<set<string>::iterator, bool> resultado = words.insert(val);

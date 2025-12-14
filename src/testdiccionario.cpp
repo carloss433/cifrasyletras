@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
     cout<<"Palabra no borrada "<<diccionario.size()<<endl;
 
   int longitud;
-  cout<<"Dime la longitud de las palabras que  quieres ver";
+  cout<<"Dime la longitud de las palabras que  quieres ver: ";
   cin>>longitud;
   vector<string> v=diccionario.getWordsLength(longitud);
   for (int i=0;i<v.size();i++)

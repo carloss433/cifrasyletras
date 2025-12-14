@@ -410,7 +410,8 @@ CMakeFiles/cantidad_letras.dir/src/dictionary.cpp.o: ../src/dictionary.cpp \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc
+  /usr/include/c++/11/bits/vector.tcc \
+  ../include/dictionary.h
 
 CMakeFiles/cantidad_letras.dir/src/letters_set.cpp.o: ../src/letters_set.cpp \
   /usr/include/stdc-predef.h \
