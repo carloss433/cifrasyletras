@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/proof_letters_set.dir/src/proof_letters_set.cpp.o CMakeFiles/proof_letters_set.dir/src/letters_set.cpp.o -o bin/proof_letters_set 

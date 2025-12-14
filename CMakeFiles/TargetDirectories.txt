@@ -1,4 +1,7 @@
 /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/testdiccionario.dir
+/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/proof_letters_set.dir
+/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/proof_letters_bag.dir
+/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/proof_letras.dir
 /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/letras.dir
 /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/cantidad_letras.dir
 /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/CMakeFiles/cifras.dir

@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
      cout<<v[i]<<endl;
 
   string input;
-  cout<<"Dime una palabra ";
+  cout<<"Dime una palabra: ";
   cin>>input;
   if (diccionario.find(input)!=diccionario.end())
         cout<<"La palabra esta"<<endl;

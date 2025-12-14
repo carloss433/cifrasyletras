@@ -14,6 +14,28 @@ if (EXISTS ${CMAKE_SOURCE_DIR}/${BASE_FOLDER}/src/testdiccionario.cpp)
     ${BASE_FOLDER}/src/dictionary.cpp)
 endif()
 
+if (EXISTS ${CMAKE_SOURCE_DIR}/${BASE_FOLDER}/src/proof_letters_set.cpp)
+  add_executable(proof_letters_set
+    ${BASE_FOLDER}/src/proof_letters_set.cpp
+    ${BASE_FOLDER}/src/letters_set.cpp)
+endif()
+
+if (EXISTS ${CMAKE_SOURCE_DIR}/${BASE_FOLDER}/src/proof_letters_bag.cpp)
+  add_executable(proof_letters_bag
+    ${BASE_FOLDER}/src/proof_letters_bag.cpp
+    ${BASE_FOLDER}/src/letters_set.cpp
+    ${BASE_FOLDER}/src/letters_bag.cpp)
+endif()
+
+if (EXISTS ${CMAKE_SOURCE_DIR}/${BASE_FOLDER}/src/proof_letras.cpp)
+  add_executable(proof_letras
+    ${BASE_FOLDER}/src/proof_letras.cpp
+    ${BASE_FOLDER}/src/letters_set.cpp
+    ${BASE_FOLDER}/src/letters_bag.cpp
+    ${BASE_FOLDER}/src/solver.cpp
+    ${BASE_FOLDER}/src/dictionary.cpp)
+endif()
+
 if (EXISTS ${CMAKE_SOURCE_DIR}/${BASE_FOLDER}/src/letras.cpp)
   add_executable(letras
     ${BASE_FOLDER}/src/letras.cpp
@@ -29,6 +51,7 @@ if (EXISTS ${CMAKE_SOURCE_DIR}/${BASE_FOLDER}/src/cantidad_letras.cpp)
     ${BASE_FOLDER}/src/letters_set.cpp
     ${BASE_FOLDER}/src/dictionary.cpp)
 endif()
+
 if (EXISTS ${CMAKE_SOURCE_DIR}/${BASE_FOLDER}/src/cifras.cpp)
   add_executable(cifras
     ${BASE_FOLDER}/src/cifras.cpp)

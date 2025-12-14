@@ -49,6 +49,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/testdiccionario.dir/DependInfo.cmake"
+  "CMakeFiles/proof_letters_set.dir/DependInfo.cmake"
+  "CMakeFiles/proof_letters_bag.dir/DependInfo.cmake"
+  "CMakeFiles/proof_letras.dir/DependInfo.cmake"
   "CMakeFiles/letras.dir/DependInfo.cmake"
   "CMakeFiles/cantidad_letras.dir/DependInfo.cmake"
   "CMakeFiles/cifras.dir/DependInfo.cmake"

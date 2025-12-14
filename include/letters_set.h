@@ -3,8 +3,11 @@
 
 #include <iostream>
 #include <map>
+#include <string>
 
 using namespace std;
+
+
 
 struct LetterInfo{
   unsigned int repetitions;
@@ -29,6 +32,13 @@ class LettersSet{
 private:
   map<char, LetterInfo> charSet;
    // A completar
+
+public:
+
+  int getScore(string word);
+
+  friend istream &operator>>(istream &is, LettersSet &let);
+  friend ostream &operator<<(ostream &os, const LettersSet &let);
   
 };
 
