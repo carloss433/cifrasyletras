@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/proof_letras.dir/src/proof_letras.cpp.o CMakeFiles/proof_letras.dir/src/letters_set.cpp.o CMakeFiles/proof_letras.dir/src/letters_bag.cpp.o CMakeFiles/proof_letras.dir/src/solver.cpp.o CMakeFiles/proof_letras.dir/src/dictionary.cpp.o -o bin/proof_letras 

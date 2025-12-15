@@ -26,12 +26,12 @@ int main(int argc, char *argv[])
 
     test_size(conjunto_base);
     test_score(conjunto_base);
-    /*test_insert(conjunto_base);
+    test_insert(conjunto_base);
     test_clear_empty_erase();
     test_operador_index(conjunto_base);
     test_iterador(conjunto_base);
     test_iterador_const(conjunto_base_constante);
-    */
+    
   return 0;
 }
 
@@ -48,7 +48,7 @@ void test_score(LettersSet& letras) {
     assert (puntuacion == 12);
     cout << "\033[32m Test getScore superado correctamente \033[0m" << endl;
 }
-/*
+
 void test_insert(LettersSet& letras) {
     LettersSet copia(letras);
     copia.insert(make_pair('?', LetterInfo(1, 10)));
@@ -112,4 +112,3 @@ void test_iterador_const(const LettersSet& letras) {
     assert (contador == longitud);
     cout << "\033[32m Test del iterador const superado correctamente \033[0m" << endl;
 }
-*/

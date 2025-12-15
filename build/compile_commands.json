@@ -11,6 +11,56 @@
 },
 {
   "directory": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build",
+  "command": "/usr/bin/g++  -I/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include -g -std=gnu++14 -o CMakeFiles/proof_letters_set.dir/src/proof_letters_set.cpp.o -c /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/proof_letters_set.cpp",
+  "file": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/proof_letters_set.cpp"
+},
+{
+  "directory": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build",
+  "command": "/usr/bin/g++  -I/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include -g -std=gnu++14 -o CMakeFiles/proof_letters_set.dir/src/letters_set.cpp.o -c /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/letters_set.cpp",
+  "file": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/letters_set.cpp"
+},
+{
+  "directory": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build",
+  "command": "/usr/bin/g++  -I/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include -g -std=gnu++14 -o CMakeFiles/proof_letters_bag.dir/src/proof_letters_bag.cpp.o -c /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/proof_letters_bag.cpp",
+  "file": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/proof_letters_bag.cpp"
+},
+{
+  "directory": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build",
+  "command": "/usr/bin/g++  -I/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include -g -std=gnu++14 -o CMakeFiles/proof_letters_bag.dir/src/letters_set.cpp.o -c /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/letters_set.cpp",
+  "file": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/letters_set.cpp"
+},
+{
+  "directory": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build",
+  "command": "/usr/bin/g++  -I/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include -g -std=gnu++14 -o CMakeFiles/proof_letters_bag.dir/src/letters_bag.cpp.o -c /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/letters_bag.cpp",
+  "file": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/letters_bag.cpp"
+},
+{
+  "directory": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build",
+  "command": "/usr/bin/g++  -I/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include -g -std=gnu++14 -o CMakeFiles/proof_letras.dir/src/proof_letras.cpp.o -c /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/proof_letras.cpp",
+  "file": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/proof_letras.cpp"
+},
+{
+  "directory": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build",
+  "command": "/usr/bin/g++  -I/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include -g -std=gnu++14 -o CMakeFiles/proof_letras.dir/src/letters_set.cpp.o -c /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/letters_set.cpp",
+  "file": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/letters_set.cpp"
+},
+{
+  "directory": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build",
+  "command": "/usr/bin/g++  -I/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include -g -std=gnu++14 -o CMakeFiles/proof_letras.dir/src/letters_bag.cpp.o -c /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/letters_bag.cpp",
+  "file": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/letters_bag.cpp"
+},
+{
+  "directory": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build",
+  "command": "/usr/bin/g++  -I/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include -g -std=gnu++14 -o CMakeFiles/proof_letras.dir/src/solver.cpp.o -c /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/solver.cpp",
+  "file": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/solver.cpp"
+},
+{
+  "directory": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build",
+  "command": "/usr/bin/g++  -I/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include -g -std=gnu++14 -o CMakeFiles/proof_letras.dir/src/dictionary.cpp.o -c /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/dictionary.cpp",
+  "file": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/dictionary.cpp"
+},
+{
+  "directory": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build",
   "command": "/usr/bin/g++  -I/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include -g -std=gnu++14 -o CMakeFiles/letras.dir/src/letras.cpp.o -c /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/letras.cpp",
   "file": "/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/src/letras.cpp"
 },

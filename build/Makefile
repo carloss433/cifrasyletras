@@ -130,6 +130,45 @@ testdiccionario/fast:
 .PHONY : testdiccionario/fast
 
 #=============================================================================
+# Target rules for targets named proof_letters_set
+
+# Build rule for target.
+proof_letters_set: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 proof_letters_set
+.PHONY : proof_letters_set
+
+# fast build rule for target.
+proof_letters_set/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_set.dir/build.make CMakeFiles/proof_letters_set.dir/build
+.PHONY : proof_letters_set/fast
+
+#=============================================================================
+# Target rules for targets named proof_letters_bag
+
+# Build rule for target.
+proof_letters_bag: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 proof_letters_bag
+.PHONY : proof_letters_bag
+
+# fast build rule for target.
+proof_letters_bag/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_bag.dir/build.make CMakeFiles/proof_letters_bag.dir/build
+.PHONY : proof_letters_bag/fast
+
+#=============================================================================
+# Target rules for targets named proof_letras
+
+# Build rule for target.
+proof_letras: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 proof_letras
+.PHONY : proof_letras
+
+# fast build rule for target.
+proof_letras/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/build
+.PHONY : proof_letras/fast
+
+#=============================================================================
 # Target rules for targets named letras
 
 # Build rule for target.
@@ -261,6 +300,7 @@ src/dictionary.o: src/dictionary.cpp.o
 # target to build an object file
 src/dictionary.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testdiccionario.dir/build.make CMakeFiles/testdiccionario.dir/src/dictionary.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/dictionary.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/letras.dir/build.make CMakeFiles/letras.dir/src/dictionary.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cantidad_letras.dir/build.make CMakeFiles/cantidad_letras.dir/src/dictionary.cpp.o
 .PHONY : src/dictionary.cpp.o
@@ -271,6 +311,7 @@ src/dictionary.i: src/dictionary.cpp.i
 # target to preprocess a source file
 src/dictionary.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testdiccionario.dir/build.make CMakeFiles/testdiccionario.dir/src/dictionary.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/dictionary.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/letras.dir/build.make CMakeFiles/letras.dir/src/dictionary.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cantidad_letras.dir/build.make CMakeFiles/cantidad_letras.dir/src/dictionary.cpp.i
 .PHONY : src/dictionary.cpp.i
@@ -281,6 +322,7 @@ src/dictionary.s: src/dictionary.cpp.s
 # target to generate assembly for a file
 src/dictionary.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testdiccionario.dir/build.make CMakeFiles/testdiccionario.dir/src/dictionary.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/dictionary.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/letras.dir/build.make CMakeFiles/letras.dir/src/dictionary.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cantidad_letras.dir/build.make CMakeFiles/cantidad_letras.dir/src/dictionary.cpp.s
 .PHONY : src/dictionary.cpp.s
@@ -314,6 +356,8 @@ src/letters_bag.o: src/letters_bag.cpp.o
 
 # target to build an object file
 src/letters_bag.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_bag.dir/build.make CMakeFiles/proof_letters_bag.dir/src/letters_bag.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/letters_bag.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/letras.dir/build.make CMakeFiles/letras.dir/src/letters_bag.cpp.o
 .PHONY : src/letters_bag.cpp.o
 
@@ -322,6 +366,8 @@ src/letters_bag.i: src/letters_bag.cpp.i
 
 # target to preprocess a source file
 src/letters_bag.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_bag.dir/build.make CMakeFiles/proof_letters_bag.dir/src/letters_bag.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/letters_bag.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/letras.dir/build.make CMakeFiles/letras.dir/src/letters_bag.cpp.i
 .PHONY : src/letters_bag.cpp.i
 
@@ -330,6 +376,8 @@ src/letters_bag.s: src/letters_bag.cpp.s
 
 # target to generate assembly for a file
 src/letters_bag.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_bag.dir/build.make CMakeFiles/proof_letters_bag.dir/src/letters_bag.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/letters_bag.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/letras.dir/build.make CMakeFiles/letras.dir/src/letters_bag.cpp.s
 .PHONY : src/letters_bag.cpp.s
 
@@ -338,6 +386,9 @@ src/letters_set.o: src/letters_set.cpp.o
 
 # target to build an object file
 src/letters_set.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_set.dir/build.make CMakeFiles/proof_letters_set.dir/src/letters_set.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_bag.dir/build.make CMakeFiles/proof_letters_bag.dir/src/letters_set.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/letters_set.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/letras.dir/build.make CMakeFiles/letras.dir/src/letters_set.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cantidad_letras.dir/build.make CMakeFiles/cantidad_letras.dir/src/letters_set.cpp.o
 .PHONY : src/letters_set.cpp.o
@@ -347,6 +398,9 @@ src/letters_set.i: src/letters_set.cpp.i
 
 # target to preprocess a source file
 src/letters_set.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_set.dir/build.make CMakeFiles/proof_letters_set.dir/src/letters_set.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_bag.dir/build.make CMakeFiles/proof_letters_bag.dir/src/letters_set.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/letters_set.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/letras.dir/build.make CMakeFiles/letras.dir/src/letters_set.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cantidad_letras.dir/build.make CMakeFiles/cantidad_letras.dir/src/letters_set.cpp.i
 .PHONY : src/letters_set.cpp.i
@@ -356,15 +410,91 @@ src/letters_set.s: src/letters_set.cpp.s
 
 # target to generate assembly for a file
 src/letters_set.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_set.dir/build.make CMakeFiles/proof_letters_set.dir/src/letters_set.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_bag.dir/build.make CMakeFiles/proof_letters_bag.dir/src/letters_set.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/letters_set.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/letras.dir/build.make CMakeFiles/letras.dir/src/letters_set.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cantidad_letras.dir/build.make CMakeFiles/cantidad_letras.dir/src/letters_set.cpp.s
 .PHONY : src/letters_set.cpp.s
+
+src/proof_letras.o: src/proof_letras.cpp.o
+.PHONY : src/proof_letras.o
+
+# target to build an object file
+src/proof_letras.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/proof_letras.cpp.o
+.PHONY : src/proof_letras.cpp.o
+
+src/proof_letras.i: src/proof_letras.cpp.i
+.PHONY : src/proof_letras.i
+
+# target to preprocess a source file
+src/proof_letras.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/proof_letras.cpp.i
+.PHONY : src/proof_letras.cpp.i
+
+src/proof_letras.s: src/proof_letras.cpp.s
+.PHONY : src/proof_letras.s
+
+# target to generate assembly for a file
+src/proof_letras.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/proof_letras.cpp.s
+.PHONY : src/proof_letras.cpp.s
+
+src/proof_letters_bag.o: src/proof_letters_bag.cpp.o
+.PHONY : src/proof_letters_bag.o
+
+# target to build an object file
+src/proof_letters_bag.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_bag.dir/build.make CMakeFiles/proof_letters_bag.dir/src/proof_letters_bag.cpp.o
+.PHONY : src/proof_letters_bag.cpp.o
+
+src/proof_letters_bag.i: src/proof_letters_bag.cpp.i
+.PHONY : src/proof_letters_bag.i
+
+# target to preprocess a source file
+src/proof_letters_bag.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_bag.dir/build.make CMakeFiles/proof_letters_bag.dir/src/proof_letters_bag.cpp.i
+.PHONY : src/proof_letters_bag.cpp.i
+
+src/proof_letters_bag.s: src/proof_letters_bag.cpp.s
+.PHONY : src/proof_letters_bag.s
+
+# target to generate assembly for a file
+src/proof_letters_bag.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_bag.dir/build.make CMakeFiles/proof_letters_bag.dir/src/proof_letters_bag.cpp.s
+.PHONY : src/proof_letters_bag.cpp.s
+
+src/proof_letters_set.o: src/proof_letters_set.cpp.o
+.PHONY : src/proof_letters_set.o
+
+# target to build an object file
+src/proof_letters_set.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_set.dir/build.make CMakeFiles/proof_letters_set.dir/src/proof_letters_set.cpp.o
+.PHONY : src/proof_letters_set.cpp.o
+
+src/proof_letters_set.i: src/proof_letters_set.cpp.i
+.PHONY : src/proof_letters_set.i
+
+# target to preprocess a source file
+src/proof_letters_set.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_set.dir/build.make CMakeFiles/proof_letters_set.dir/src/proof_letters_set.cpp.i
+.PHONY : src/proof_letters_set.cpp.i
+
+src/proof_letters_set.s: src/proof_letters_set.cpp.s
+.PHONY : src/proof_letters_set.s
+
+# target to generate assembly for a file
+src/proof_letters_set.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_set.dir/build.make CMakeFiles/proof_letters_set.dir/src/proof_letters_set.cpp.s
+.PHONY : src/proof_letters_set.cpp.s
 
 src/solver.o: src/solver.cpp.o
 .PHONY : src/solver.o
 
 # target to build an object file
 src/solver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/solver.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/letras.dir/build.make CMakeFiles/letras.dir/src/solver.cpp.o
 .PHONY : src/solver.cpp.o
 
@@ -373,6 +503,7 @@ src/solver.i: src/solver.cpp.i
 
 # target to preprocess a source file
 src/solver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/solver.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/letras.dir/build.make CMakeFiles/letras.dir/src/solver.cpp.i
 .PHONY : src/solver.cpp.i
 
@@ -381,6 +512,7 @@ src/solver.s: src/solver.cpp.s
 
 # target to generate assembly for a file
 src/solver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/src/solver.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/letras.dir/build.make CMakeFiles/letras.dir/src/solver.cpp.s
 .PHONY : src/solver.cpp.s
 
@@ -422,6 +554,9 @@ help:
 	@echo "... cantidad_letras"
 	@echo "... cifras"
 	@echo "... letras"
+	@echo "... proof_letras"
+	@echo "... proof_letters_bag"
+	@echo "... proof_letters_set"
 	@echo "... testdiccionario"
 	@echo "... src/cantidad_letras.o"
 	@echo "... src/cantidad_letras.i"
@@ -441,6 +576,15 @@ help:
 	@echo "... src/letters_set.o"
 	@echo "... src/letters_set.i"
 	@echo "... src/letters_set.s"
+	@echo "... src/proof_letras.o"
+	@echo "... src/proof_letras.i"
+	@echo "... src/proof_letras.s"
+	@echo "... src/proof_letters_bag.o"
+	@echo "... src/proof_letters_bag.i"
+	@echo "... src/proof_letters_bag.s"
+	@echo "... src/proof_letters_set.o"
+	@echo "... src/proof_letters_set.i"
+	@echo "... src/proof_letters_set.s"
 	@echo "... src/solver.o"
 	@echo "... src/solver.i"
 	@echo "... src/solver.s"

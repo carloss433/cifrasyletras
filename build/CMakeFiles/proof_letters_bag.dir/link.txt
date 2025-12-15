@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/proof_letters_bag.dir/src/proof_letters_bag.cpp.o CMakeFiles/proof_letters_bag.dir/src/letters_set.cpp.o CMakeFiles/proof_letters_bag.dir/src/letters_bag.cpp.o -o bin/proof_letters_bag 

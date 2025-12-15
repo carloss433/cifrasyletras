@@ -64,6 +64,9 @@ CMAKE_BINARY_DIR = /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build
 
 # The main recursive "all" target.
 all: CMakeFiles/testdiccionario.dir/all
+all: CMakeFiles/proof_letters_set.dir/all
+all: CMakeFiles/proof_letters_bag.dir/all
+all: CMakeFiles/proof_letras.dir/all
 all: CMakeFiles/letras.dir/all
 all: CMakeFiles/cantidad_letras.dir/all
 all: CMakeFiles/cifras.dir/all
@@ -75,6 +78,9 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/testdiccionario.dir/clean
+clean: CMakeFiles/proof_letters_set.dir/clean
+clean: CMakeFiles/proof_letters_bag.dir/clean
+clean: CMakeFiles/proof_letras.dir/clean
 clean: CMakeFiles/letras.dir/clean
 clean: CMakeFiles/cantidad_letras.dir/clean
 clean: CMakeFiles/cifras.dir/clean
@@ -90,7 +96,7 @@ clean: CMakeFiles/zip.dir/clean
 CMakeFiles/testdiccionario.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testdiccionario.dir/build.make CMakeFiles/testdiccionario.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testdiccionario.dir/build.make CMakeFiles/testdiccionario.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build/CMakeFiles --progress-num=14,15,16 "Built target testdiccionario"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build/CMakeFiles --progress-num=27,28,29 "Built target testdiccionario"
 .PHONY : CMakeFiles/testdiccionario.dir/all
 
 # Build rule for subdir invocation for target.
@@ -108,6 +114,84 @@ testdiccionario: CMakeFiles/testdiccionario.dir/rule
 CMakeFiles/testdiccionario.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testdiccionario.dir/build.make CMakeFiles/testdiccionario.dir/clean
 .PHONY : CMakeFiles/testdiccionario.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/proof_letters_set.dir
+
+# All Build rule for target.
+CMakeFiles/proof_letters_set.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_set.dir/build.make CMakeFiles/proof_letters_set.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_set.dir/build.make CMakeFiles/proof_letters_set.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build/CMakeFiles --progress-num=24,25,26 "Built target proof_letters_set"
+.PHONY : CMakeFiles/proof_letters_set.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/proof_letters_set.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/proof_letters_set.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build/CMakeFiles 0
+.PHONY : CMakeFiles/proof_letters_set.dir/rule
+
+# Convenience name for target.
+proof_letters_set: CMakeFiles/proof_letters_set.dir/rule
+.PHONY : proof_letters_set
+
+# clean rule for target.
+CMakeFiles/proof_letters_set.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_set.dir/build.make CMakeFiles/proof_letters_set.dir/clean
+.PHONY : CMakeFiles/proof_letters_set.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/proof_letters_bag.dir
+
+# All Build rule for target.
+CMakeFiles/proof_letters_bag.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_bag.dir/build.make CMakeFiles/proof_letters_bag.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_bag.dir/build.make CMakeFiles/proof_letters_bag.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build/CMakeFiles --progress-num=20,21,22,23 "Built target proof_letters_bag"
+.PHONY : CMakeFiles/proof_letters_bag.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/proof_letters_bag.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/proof_letters_bag.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build/CMakeFiles 0
+.PHONY : CMakeFiles/proof_letters_bag.dir/rule
+
+# Convenience name for target.
+proof_letters_bag: CMakeFiles/proof_letters_bag.dir/rule
+.PHONY : proof_letters_bag
+
+# clean rule for target.
+CMakeFiles/proof_letters_bag.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letters_bag.dir/build.make CMakeFiles/proof_letters_bag.dir/clean
+.PHONY : CMakeFiles/proof_letters_bag.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/proof_letras.dir
+
+# All Build rule for target.
+CMakeFiles/proof_letras.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build/CMakeFiles --progress-num=14,15,16,17,18,19 "Built target proof_letras"
+.PHONY : CMakeFiles/proof_letras.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/proof_letras.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/proof_letras.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build/CMakeFiles 0
+.PHONY : CMakeFiles/proof_letras.dir/rule
+
+# Convenience name for target.
+proof_letras: CMakeFiles/proof_letras.dir/rule
+.PHONY : proof_letras
+
+# clean rule for target.
+CMakeFiles/proof_letras.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proof_letras.dir/build.make CMakeFiles/proof_letras.dir/clean
+.PHONY : CMakeFiles/proof_letras.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/letras.dir
@@ -246,7 +330,7 @@ CMakeFiles/mrproper.dir/clean:
 CMakeFiles/zip.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zip.dir/build.make CMakeFiles/zip.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zip.dir/build.make CMakeFiles/zip.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build/CMakeFiles --progress-num=17 "Built target zip"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carlos/2_INFORMATICA/ED/material/cifrasyletras/build/CMakeFiles --progress-num=30 "Built target zip"
 .PHONY : CMakeFiles/zip.dir/all
 
 # Build rule for subdir invocation for target.
