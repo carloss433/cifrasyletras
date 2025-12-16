@@ -1,4 +1,5 @@
 # Juego de Cifras y Letras
+Hecho por Carlos Vera Lahoz e Iker Resino Sánchez
 
 ## Descripción del Proyecto
 
