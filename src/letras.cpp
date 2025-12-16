@@ -68,7 +68,7 @@ int main(int argc, char *argv[]) {
             cout << sol << " Puntuacion: " << soluciones.second << endl;
         }
 
-        // Mejor solución (la primera del vector suele valer)
+        // Mejor solución 
         if (!soluciones.first.empty())
             cout << "Mejor Solucion: " << soluciones.first[0] << endl;
         

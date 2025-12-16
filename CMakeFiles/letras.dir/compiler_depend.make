@@ -384,14 +384,6 @@ CMakeFiles/letras.dir/src/letras.cpp.o: src/letras.cpp \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
   include/dictionary.h \
   /usr/include/c++/11/set \
   /usr/include/c++/11/bits/stl_tree.h \
@@ -403,6 +395,8 @@ CMakeFiles/letras.dir/src/letras.cpp.o: src/letras.cpp \
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/tuple \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
   /usr/include/c++/11/array \
   /usr/include/c++/11/bits/uses_allocator.h \
   /usr/include/c++/11/bits/invoke.h \
@@ -1020,13 +1014,7 @@ include/solver.h:
 
 /usr/include/c++/11/array:
 
-/usr/include/c++/11/bits/algorithmfwd.h:
-
-/usr/include/c++/11/bits/stl_algo.h:
-
 /usr/include/c++/11/bits/stl_relops.h:
-
-/usr/include/c++/11/bits/stl_heap.h:
 
 src/letras.cpp:
 
@@ -1134,8 +1122,6 @@ include/letters_set.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
-/usr/include/c++/11/bits/stl_tempbuf.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
@@ -1147,8 +1133,6 @@ include/letters_set.h:
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/11/bits/uniform_int_dist.h:
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
@@ -1365,8 +1349,6 @@ src/dictionary.cpp:
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/c++/11/algorithm:
 
 /usr/include/c++/11/iostream:
 
