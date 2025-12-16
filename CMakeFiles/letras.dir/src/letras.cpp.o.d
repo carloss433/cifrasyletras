@@ -158,14 +158,15 @@ CMakeFiles/letras.dir/src/letras.cpp.o: \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include/letters_bag.h \
  /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include/letters_set.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/tuple /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/array \
  /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h \
- /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/stdlib.h \
+ /usr/include/c++/11/bits/stl_multimap.h \
+ /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include/letters_bag.h \
  /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include/letters_set.h \
+ /usr/include/c++/11/stdlib.h \
  /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include/solver.h \
  /home/carlos/2_INFORMATICA/ED/material/cifrasyletras/./include/dictionary.h

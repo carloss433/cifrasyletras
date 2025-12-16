@@ -14,12 +14,12 @@ using namespace std;
 void test_solver();
 
 int main(int argc, char *argv[])
-{/*
+{
   test_solver();
-       */
+       
   return 0;
 }
-/*
+
 void test_solver(){
     Dictionary dictionary;
     ifstream dict_file("data/diccionario_small.txt");
@@ -44,4 +44,4 @@ void test_solver(){
            (solutions2.first[1] == "blocao" && solutions2.first[0] == "blocar"));
     cout << "\033[32m Test por puntuación superado.\033[0m" << endl;
 }
-    */
+    

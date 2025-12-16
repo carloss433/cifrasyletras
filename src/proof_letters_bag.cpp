@@ -18,7 +18,7 @@ void test_extraerLetras(LettersBag &bolsa);
 void test_visual_extraccion(LettersBag &bolsa);
 
 int main(int argc, char *argv[])
-{/*
+{
   ifstream letras_base("data/letras.txt");
   LettersSet conjunto_base;
   letras_base >> conjunto_base;
@@ -82,5 +82,5 @@ void test_visual_extraccion(LettersBag &bolsa)
   for (int i = 0; i < letras.size(); ++i){
     cout << letras[i] << endl;
   }
-    */
+    
 }
